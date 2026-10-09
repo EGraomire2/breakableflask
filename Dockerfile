@@ -13,6 +13,6 @@ COPY . .
 # Basculer vers l'utilisateur non-root
 USER appuser
 
-EXPOSE 5000
+EXPOSE 4000
 
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
